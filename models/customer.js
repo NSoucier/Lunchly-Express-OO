@@ -78,6 +78,11 @@ class Customer {
       );
     }
   }
+
+  // Display first and last name combined
+  fullName() {
+    return this.firstName + ' ' + this.lastName
+  }
 }
 
 module.exports = Customer;
